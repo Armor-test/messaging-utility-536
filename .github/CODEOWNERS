@@ -1,0 +1,37 @@
+# CODEOWNERS file for messaging-utility-536
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-ui @Armor-test/dept-ui @Armor-test/dept-billing
+
+# Directory ownership
+/modules/ @Armor-test/squad-product @Armor-test/team-logging
+/extensions/ @Armor-test/squad-api @Armor-test/team-core
+/common/ @Armor-test/grp-ui @Armor-test/squad-performance
+/docs/ @Armor-test/grp-ui @Armor-test/squad-product @Armor-test/dept-data
+/security/ @Armor-test/squad-performance @Armor-test/grp-integration @Armor-test/squad-search
+/plugins/ @Armor-test/squad-api @Armor-test/dept-reliability
+/app/ @Armor-test/team-core @Armor-test/team-frontend
+/shared/ @Armor-test/squad-reporting @Armor-test/squad-cache @Armor-test/squad-product
+/services/ @Armor-test/dept-notifications @Armor-test/dept-security
+/models/ @Armor-test/dept-identity @Armor-test/squad-apps
+/lib/ @Armor-test/dept-ui @Armor-test/squad-search @Armor-test/dept-billing
+/examples/ @Armor-test/grp-ui @Armor-test/squad-mobile
+
+# File type ownership
+*.json @Armor-test/unit-cloud @Armor-test/dept-billing
+*.php @Armor-test/grp-ui @Armor-test/squad-ml
+*.sql @Armor-test/squad-frontend @Armor-test/squad-tooling
+*.jsx @Armor-test/unit-devops @Armor-test/dept-notifications @Armor-test/grp-payments
+*.properties @Armor-test/squad-payments @Armor-test/grp-reporting @Armor-test/dept-test
+*.gradle @Armor-test/unit-design @Armor-test/unit-test @Armor-test/squad-qa
+*.yml @Armor-test/squad-search @Armor-test/dept-test
+*.kt @Armor-test/squad-api @Armor-test/grp-reporting
+*.cs @Armor-test/dept-test @Armor-test/dept-data @Armor-test/unit-governance
+*.tsx @Armor-test/unit-cloud @Armor-test/dept-notifications @Armor-test/squad-mobile
+*.proto @Armor-test/grp-reporting @Armor-test/squad-frontend @Armor-test/squad-search
+*.scala @Armor-test/team-governance @Armor-test/unit-cloud
+*.py @Armor-test/grp-integration @Armor-test/unit-governance
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
